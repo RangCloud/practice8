@@ -7,3 +7,45 @@
 body{
     background-color: hsl(210, 46%, 95%);
 }
+
+.outerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#desk{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.innerBox{
+    display: flex;
+    width: 900px;
+    height: 300px;
+}
+
+.leftBox{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+}
+.rightBox{
+    width: 600px;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    background-color: white;
+}
+.bottomBox{
+    width: 600px;
+    height: 70px;
+}
+#woman2{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
