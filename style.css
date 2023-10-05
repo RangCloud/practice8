@@ -77,16 +77,19 @@ body{
 .boxBox{
     width: 20px;
     height: 20px;
+    margin-left: 10px;
 }
 .hideIcon {
+    display: none;
 	position: absolute;
 	background: hsl(217, 19%, 35%);
 	border-radius: .4em;
     width: 200px;
     top: -110%;
     right: -2.5%;
-    padding: 20px;
+    padding: 12px;
     text-align: center;
+    box-shadow: 3px 3px 3px;
 }
 .hideIcon:after {
 	content: '';
