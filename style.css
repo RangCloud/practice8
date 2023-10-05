@@ -6,6 +6,7 @@
 
 body{
     background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
 }
 
 .outerBox{
@@ -23,7 +24,7 @@ body{
 
 .innerBox{
     display: flex;
-    width: 900px;
+    width: 710px;
     height: 300px;
 }
 
@@ -34,14 +35,44 @@ body{
     border-radius: 15px 0 0 15px;
 }
 .rightBox{
-    width: 600px;
+    width: 410px;
     height: 300px;
     border-radius: 0 15px 15px 0;
     background-color: white;
+    padding: 30px;
+    color: hsl(217, 19%, 35%);
+}
+#p2{
+    opacity: 0.8;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 .bottomBox{
-    width: 600px;
+    position: relative;
+    width: 410px;
     height: 70px;
+}
+.span1{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-weight: 700;
+}
+.span2{
+    position: absolute;
+    bottom: 26%;
+    left: 15%;
+    opacity: 0.5;
+}
+.button1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30%;
+    right: 18%;
+    border-radius: 30px;
+    border: none;
 }
 #woman2{
     width: 50px;
