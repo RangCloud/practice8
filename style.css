@@ -74,6 +74,37 @@ body{
     border-radius: 30px;
     border: none;
 }
+.boxBox{
+    width: 20px;
+    height: 20px;
+}
+.hideIcon {
+	position: absolute;
+	background: hsl(217, 19%, 35%);
+	border-radius: .4em;
+    width: 200px;
+    top: -110%;
+    right: -2.5%;
+    padding: 20px;
+    text-align: center;
+}
+.hideIcon:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: hsl(217, 19%, 35%);
+	border-bottom: 0;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+.span3{
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+}
 #woman2{
     width: 50px;
     height: 50px;
